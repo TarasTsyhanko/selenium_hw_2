@@ -3,7 +3,8 @@
 <suite name="GmailSuit">
     <test name="Gmail">
         <classes>
-            <class name="tests.GmailTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.MessageTest"/>
         </classes>
     </test>
 </suite>

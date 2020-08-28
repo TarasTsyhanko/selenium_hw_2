@@ -12,6 +12,8 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
     private static final Logger log = LogManager.getLogger(BaseTest.class);
     protected WebDriver webDriver;
+    protected static final String BASE_URL="https://mail.google.com";
+    protected static final Integer EXPLICIT_TIME = 20;
 
     @BeforeMethod
     public void setUp(){
